@@ -21,7 +21,7 @@ console.log(friends);
 // Check if the element is in the array and return the number of it
 const check = prompt('enter a name to check');
 if (friends.includes(check)) {
-    console.log(`${check} is your friend and the index of it is ${friends.indexOf(check)}`);
+    console.log(`${check} is one of your friend and the index of it is ${friends.indexOf(check)}`);
 } else {
     console.log(`There's no body with ${check} name`);
 }
