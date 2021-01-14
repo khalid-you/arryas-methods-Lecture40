@@ -23,6 +23,6 @@ const check = prompt('enter a name to check');
 if (friends.includes(check)) {
     console.log(`${check} is one of your friend and the index of it is ${friends.indexOf(check)}`);
 } else {
-    console.log(`There's no body with ${check} name`);
+    console.log(`There's no person with ${check} name`);
 }
 */
