@@ -1,3 +1,4 @@
+/*
 const jonas = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
@@ -19,7 +20,7 @@ const interstedIn = prompt('What do you want to know about Jonas? Choose between
 if (jonas[interstedIn]) {
     console.log(jonas[interstedIn]);
 } else {
-    console.log('Wrong request! Choose between firstName, lastName, age, job, or friends');
+    console.log('Wrong request! Choose between FirstName, LastName, Age, Job, and Friends');
 }
 
 jonas.location = 'Portugal';
@@ -29,3 +30,4 @@ console.log(jonas);
 // Challenge
 
 console.log(jonas.firstName + ' has friends ' + jonas.friends.length + ' and his best friend is called ' + jonas.friends[0]);
+*/
